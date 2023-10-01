@@ -1,0 +1,11 @@
+-%-%-%-%admin%123%Admin%true
+Alexia%Ntantouri%6912345678%alexia@gmail.com%alexia%123%Customer%true
+Spyros%Terzis%6912345679%spyros@gmail.com%spyros%123%Provider%true
+Nefeli%Ntantouri%6912345670%nefeli@gmail.com%nefeli%123%Customer%true
+Orfeas%Dimitris%6312345671%orfeas@gmail.com%orfeas%321%Provider%true
+er%er%44%23%spyros1%12%Customer%false
+computer%science%2310%csd@auth.gr%csd%csd%Provider%true
+s%s%s%s%s%ds%Provider%false
+sop%sop%3893%@gmail.com%alexia2%12%Customer%true
+Anastasia%Terzi%6978787873%stassyte@gmail.com%anastasiaT%an@123%Customer%false
+alexia%ntanti%6969696969%an@gmail.com%AlexiaN%123%Customer%false

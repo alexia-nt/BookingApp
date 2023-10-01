@@ -1,0 +1,5 @@
+hotel
+hostel
+suites
+apartment
+palace

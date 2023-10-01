@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CustomerProfileCardGUI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1292" height="742"/>
+    </constraints>
+    <properties>
+      <background color="-14346943"/>
+      <enabled value="false"/>
+      <font name="Montserrat"/>
+      <opaque value="false"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="2e37a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14346943"/>
+          <font name="Montserrat"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3ec5e" binding="Panel1" layout-manager="GridLayoutManager" row-count="6" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14346943"/>
+              <enabled value="false"/>
+              <font name="Montserrat"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="4a019" binding="panel11" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="dd95d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="Images/profileicon.jpg"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="dd9b6" class="javax.swing.JLabel" binding="usernameLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="41334" binding="panel12" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                  <font name="Montserrat"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="3679" class="javax.swing.JButton" binding="reservationsButton">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14999743"/>
+                      <enabled value="true"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Reserve"/>
+                    </properties>
+                  </component>
+                  <vspacer id="c9c0b">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="b8504" class="javax.swing.JButton" binding="accommodationsButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Accommodations"/>
+                    </properties>
+                  </component>
+                  <component id="eff70" class="javax.swing.JButton" binding="messagesButton">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Messages"/>
+                    </properties>
+                  </component>
+                  <component id="8f85f" class="javax.swing.JButton" binding="logOutButton" default-binding="true">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Log Out"/>
+                    </properties>
+                  </component>
+                  <component id="16f23" class="javax.swing.JButton" binding="manageButton">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Manage Reservations"/>
+                    </properties>
+                  </component>
+                  <component id="ede8" class="javax.swing.JLabel" binding="removeLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Check-In Date:"/>
+                    </properties>
+                  </component>
+                  <component id="76ae5" class="javax.swing.JButton" binding="removeReservationButton" default-binding="true">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Remove Reservation"/>
+                    </properties>
+                  </component>
+                  <component id="b8a9b" class="javax.swing.JFormattedTextField" binding="removeformattedTextField">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="dd-mm-yyyy"/>
+                    </properties>
+                  </component>
+                  <component id="f97a8" class="javax.swing.JLabel" binding="accommodationnameLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Accommodation Name:"/>
+                    </properties>
+                  </component>
+                  <component id="2553b" class="javax.swing.JTextField" binding="accnametextField">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="aca85" binding="JScrollPanel1">
+                <constraints>
+                  <grid row="3" column="2" row-span="3" col-span="12" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="228" height="429"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e5618" class="javax.swing.JTable" binding="table1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <font name="Montserrat"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="8bbc3" binding="messagePanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="14" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5c4b2" class="javax.swing.JList" binding="unreadmessagesList">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="5" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <model/>
+                    </properties>
+                  </component>
+                  <component id="5ce17" class="javax.swing.JLabel" binding="unreadmesLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Unread Messages:"/>
+                    </properties>
+                  </component>
+                  <component id="2e726" class="javax.swing.JLabel" binding="readmessageLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Read Messages:"/>
+                    </properties>
+                  </component>
+                  <component id="bc25c" class="javax.swing.JList" binding="readmessagesList">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="4" fill="2" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <hspacer id="fdb23">
+                <constraints>
+                  <grid row="4" column="15" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="6f99c" class="javax.swing.JTextField" binding="searchtextField">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <hspacer id="d25de">
+                <constraints>
+                  <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="fa8f9">
+                <constraints>
+                  <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="22c7" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                  <font name="Montserrat"/>
+                  <foreground color="-1"/>
+                  <text value="Search"/>
+                </properties>
+              </component>
+              <component id="1b600" class="javax.swing.JButton" binding="filtersButton">
+                <constraints>
+                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                  <font name="Montserrat"/>
+                  <foreground color="-1"/>
+                  <text value="Filters"/>
+                </properties>
+              </component>
+              <hspacer id="6f3ca">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <grid id="83607" binding="searchfiltersPanel" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8eb9e" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                    </properties>
+                  </component>
+                  <component id="f3a0a" class="javax.swing.JList" binding="facilitiesList">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <toolTipText value="Select 1 and press Control/Command key to select more."/>
+                    </properties>
+                  </component>
+                  <component id="276e8" class="javax.swing.JComboBox" binding="areacomboBox">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                    </properties>
+                  </component>
+                  <component id="3a11d" class="javax.swing.JComboBox" binding="typecomboBox">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="8191e" class="javax.swing.JLabel" binding="maxLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Max:"/>
+                    </properties>
+                  </component>
+                  <component id="bdf53" class="javax.swing.JCheckBox" binding="priceCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Price"/>
+                    </properties>
+                  </component>
+                  <component id="b96af" class="javax.swing.JCheckBox" binding="facilitiesCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Facilities"/>
+                    </properties>
+                  </component>
+                  <component id="56216" class="javax.swing.JCheckBox" binding="areaCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Area"/>
+                    </properties>
+                  </component>
+                  <component id="da1b7" class="javax.swing.JCheckBox" binding="typeCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14346943"/>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Type"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="114ad" binding="reservePanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="a1e89" class="javax.swing.JLabel" binding="accNameLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Accommodation Name:"/>
+                    </properties>
+                  </component>
+                  <component id="63b20" class="javax.swing.JTextField" binding="accNametextField">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="63aa8" class="javax.swing.JLabel" binding="checkINLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Check-In Date:"/>
+                    </properties>
+                  </component>
+                  <component id="52343" class="javax.swing.JFormattedTextField" binding="chekINtextfield">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="dd-mm-yyyy"/>
+                    </properties>
+                  </component>
+                  <component id="b63e4" class="javax.swing.JLabel" binding="checkoutLabel">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Montserrat"/>
+                      <foreground color="-1"/>
+                      <text value="Check-Out Date"/>
+                    </properties>
+                  </component>
+                  <component id="e0d55" class="javax.swing.JFormattedTextField" binding="checkOUTtextfield">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="dd-mm-yyyy"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="ab88a" class="javax.swing.JButton" binding="doneButton">
+                <constraints>
+                  <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14346943"/>
+                  <font name="Montserrat"/>
+                  <foreground color="-1"/>
+                  <text value="Done"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="f7b23" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>

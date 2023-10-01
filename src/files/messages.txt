@@ -1,0 +1,15 @@
+alexia%hello alexia%true
+alexia%hello again%true
+nefeli%hello nefeli%true
+alexia%new message for alexia%true
+alexia%another one%true
+spyros%Your hotels are awful%true
+spyros%Hey there%true
+spyros%How are you?%true
+alexia%welcome to our platform%true
+spyros%welcome to our platform%true
+spyros%hey there%true
+alexia%hey there%true
+orfeas%hey%true
+spyros%where are you?%true
+spyros%hi you doin?%true

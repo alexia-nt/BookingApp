@@ -1,0 +1,9 @@
+spyros hotel%hotel%22%beautiful hotel%komotini%45%false%spyros
+orfeas hotel%hotel%13%beautiful hotel%komotini%50%false%orfeas
+blue hotel%hotel%2726%modern%thessaloniki%321%false%spyros
+enjoy%hostel%67%playful nearby city centre%athens%10%false%orfeas
+bardaris suites%hotel%678%luxury%thessaloniki%245%false%orfeas
+paris experience%suites%1020%modern,luxury%massy,paris%200%false%spyros
+xanthi hotel%hotel%22%nice hotel%xanthi%4%false%spyros
+spyros apartment%apartment%13%another one%xanthi%30%false%spyros
+spyros palace%palace%23%huge%thessaloniki%1890%false%spyros

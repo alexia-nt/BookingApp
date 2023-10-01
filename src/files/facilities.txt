@@ -1,0 +1,9 @@
+spyros hotel%breakfast%view
+orfeas hotel%breakfast%pool
+blue hotel%jacuzzi%breakfast%pool
+enjoy%breakfast
+bardaris suites%breakfast%spa%jacuzzi%massage%room%service
+paris experience%jacuzzi%breakfast%pool
+xanthi hotel%view
+spyros apartment%view%wi-fi
+spyros palace%everything
